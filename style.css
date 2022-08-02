@@ -1,15 +1,19 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
     background-color: rgb(40, 40, 40);
 }
 
-#button1 {
+#generate {
+    z-index: 0;
     background-color: rgb(50, 50, 50);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(200, 200, 200);
     font-size: 150%;
-    border-radius: 2px;
     border-width: 0px;
-    width: 200px;
-    height: 50px;
+    width: 20%;
+    height: 5%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -17,18 +21,19 @@ body {
     box-shadow: 0px 3px rgb(15, 15, 15);
 }
 
-#button1:hover {
+#generate:hover {
     background-color: rgb(60, 60, 60);
 }
 
-#button1:active {
+#generate:active {
     background-color: rgb(30, 30, 30);
 }
 
-#panel {
+#text-panel {
+    z-index: 0;
     background-color: rgb(30, 30, 30);
-    width: 600px;
-    height: 100px;
+    width: 50%;
+    height: 15%;
     position: absolute;
     left: 50%;
     top: 30%;
@@ -37,12 +42,11 @@ body {
 }
 
 #text {
-    border-radius: 2px;
+    z-index: 1;
     color: rgb(255, 255, 255);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
     position: absolute;
-    left: 50%;
-    top: 28.5%;
-    transform: translate(-50%, -28.5%);
+    font-size: 35px;
+    margin-left: 50%;
+    margin-top: 4%;
+    transform: translate(-50%, 0%);
 }
