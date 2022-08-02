@@ -1,7 +1,10 @@
-function gen(type) {
+let type = "num"
+function gen() {
     let key = ""
-    for (let i = 0; i < 10; i++) {
+    if (type == num) {
+      for (let i = 0; i < 20; i++) {
         key = key + Math.floor(Math.random() * 10)
+      }
     }
     document.getElementById("text").textContent = key
 }
