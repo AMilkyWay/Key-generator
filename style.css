@@ -12,7 +12,7 @@ body {
     height: 50px;
     position: absolute;
     left: 50%;
-    top: 43%;
+    top: 50%;
     transform: translate(-50%, -43%);
     box-shadow: 0px 3px rgb(15, 15, 15);
 }
@@ -38,7 +38,7 @@ body {
 
 #text {
     border-radius: 2px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     position: absolute;
